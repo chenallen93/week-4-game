@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crystal Collector Game</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+
+<h1 id="header" class="col-md-6 col-md-offset-3"> CrystalsCollector! </h1>
+
+
+<div id="directions" class="col-md-4 col-md-offset-3">
+	<p class="paragraph">You will be given a random number at the start of the game.
+	There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
+	You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number.
+	The value of each crystal is hidden from you until you click on it.
+	Each time when the game starts, the game will change the values of each crystal.</p>
+</div>
+
+<div id="score" class="col-md-4 col-md-offset-4">
+	<p id="wins"> Wins: </p>
+	<p id="losses"> Losses: </p>
+	
+</div>
+
+
+<div id="numberyouwant" class="col-md-4 col-md-offset-4">
+
+</div>
+
+
+<div id="crystalImg" class="col-md-4 col-md-offset-4"> </div>
+
+
+<div id="generatedScore" class="col-md-4 col-md-offset-4">
+	<p>Score: </p>
+</div>
+
+<div id="winloss" class="col-md-4 col-md-offset-4"> </div>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+<script src="assets/javascript/game.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,56 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	text-align: center;
+}
+
+div {
+	background-color: white;
+}
+
+#header {
+	background-color: red;
+	font-size: 80px;
+}
+
+.paragraph {
+	font-size: 20px;
+	border: 8px red solid;
+	width: 650px;
+}
+
+
+#winloss {
+	font-size: 30px;
+}
+
+#score {
+	font-size: 40px;
+	border: 8px red solid;
+}
+
+#numberyouwant {
+	font-size: 40px;
+	border: 8px red solid;
+	border-top: none;
+}
+
+#crystalImg {
+	border: 8px red solid;
+	border-top: none;
+}
+
+.crystalImage {
+	width: 90px;
+	height: 90px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#generatedScore {
+	font-size: 25px;
+	border: 8px red solid;
+	border-top: none;
+}
